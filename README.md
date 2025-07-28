@@ -1,12 +1,12 @@
-# Real-Time American Sign Language Recognition using MediaPipe and Random Forest on Raspberry Pi
+# Real-Time American Sign Language Recognition Using MediaPipe and Random Forest on Raspberry Pi
 
-This project implements a real-time American Sign Language (ASL) recognition system using **MediaPipe** for hand landmark detection and **Random Forest** for classification. Designed for hardware deployment, the system runs efficiently on a **Raspberry Pi**, enabling low-cost, portable assistive technology.
+This project implements a real-time American Sign Language (ASL) recognition system using **MediaPipe** for hand landmark detection and **Random Forest** for classification. Designed for edge deployment, the system runs efficiently on a **Raspberry Pi**, enabling a low-cost, portable assistive technology solution.
 
 ---
 
 ## 📌 Abstract
 
-Hand sign recognition plays a critical role in gesture-based interfaces and accessibility tools. This project presents a lightweight and accurate ASL recognition pipeline that processes static hand gestures using **21 hand landmarks** extracted via MediaPipe. Each landmark's 2D coordinates (x, y) are normalized, forming a 42-dimensional feature vector.
+Hand sign recognition plays a crucial role in gesture-based interfaces and accessibility tools. This project presents a lightweight and accurate ASL recognition pipeline that processes static hand gestures using **21 hand landmarks** extracted via MediaPipe. The 2D coordinates of each landmark (x, y) are normalized to form a 42-dimensional feature vector.
 
 We evaluated five machine learning models:
 - Random Forest (🏆 best performance – 94.21%)
@@ -114,28 +114,19 @@ You are free to use, modify, and distribute this software with proper attributio
 🙌 Acknowledgements
 This project was developed as part of an internship at The LNM Institute of Information Technology (LNMIIT), Jaipur.
 
-Special thanks to:
-
-Dr. Sandeep Saini
+#### Special thanks to:
+Dr. Sandeep Saini,
 Dean of Academic Affairs, LNMIIT
 For his constant guidance and support throughout the project.
 
-Team Members:
+#### Team Members:
+- Aman Kaushal
+- Prakhar Agrawal
+- Manan Rathi
+- Lov Chaudary
 
-Aman Kaushal
-
-Prakhar Agrawal
-
-Manan Rathi
-
-Lov Chaudary
-
-Libraries and Tools:
-
-MediaPipe by Google for hand landmark detection
-
-OpenCV for image processing and visualization
-
-scikit-learn for model training (Random Forest)
-
-Raspberry Pi for real-time deployment and testing
+#### Libraries and Tools:
+- MediaPipe by Google for hand landmark detection
+- OpenCV for image processing and visualization
+- scikit-learn for model training (Random Forest)
+- Raspberry Pi for real-time deployment and testing
